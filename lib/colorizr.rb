@@ -1,3 +1,4 @@
+require 'byebug'
 class String
 
   attr_reader :colors_hash
@@ -15,10 +16,12 @@ class String
   }
 
   def self.colors
+    create_colors
     @@colors_hash.keys
   end
 
   def self.sample_colors
+    create_colors
     @@colors_hash.each do |color, format|
       puts "I am " + "#{color}".send("#{color.to_s}") + "."
     end

@@ -12,15 +12,11 @@ Set your local Gemfile as:
 
 ``require 'colorizr'``
 
-- Call initialization 
-
-``String.create_colors``
-
-- Enumerate sample colors
+- Option #1: Enumerate sample colors
 
 ``String.sample_colors``
 
-- Apply font color (from list of sample colors)
+- Option #2: Apply font color (from list of sample colors)
 
 ``puts "John".red``
 
