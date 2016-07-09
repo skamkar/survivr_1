@@ -1,0 +1,9 @@
+Project Reponses:
+
+- This gem takes advantage of Ruby's metaprogramming capabilities by dynamically and automatically creating methods to color text, rather than writing a static method for each color choice.
+
+- Spent roughly 3 hours.
+
+- Using the send method to create dynamic methods (and getting it to work properly) was the most rewarding challenge.
+
+- However, much more growth to increase level of comfort dynamically creating metaprograms within Ruby.
